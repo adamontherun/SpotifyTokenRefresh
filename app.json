@@ -1,5 +1,5 @@
 {
-  "name": "Spotify Token Swap/Refresh Service",
+  "name": "Spotify Token Service",
   "description": "A Spotify Token Swap/Refresh Service for easy deployment to Heroku.",
   "repository": "https://github.com/adamontherun/SpotifyTokenRefresh",
   "keywords": ["Sinatra", "spotify", "token"],
