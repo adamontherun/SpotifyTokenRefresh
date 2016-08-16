@@ -1,0 +1,21 @@
+{
+  "name": "Spotify Token Swap/Refresh Service",
+  "description": "A Spotify Token Swap/Refresh Service for easy deployment to Heroku.",
+  "repository": "https://github.com/adamontherun/SpotifyTokenRefresh",
+  "keywords": ["Sinatra", "spotify", "token"],
+   "env": {
+    "CLIENT_ID": {
+      "description": "Your client id, found in your Spotify App Dashboard."
+    },
+    "CLIENT_SECRET": {
+      "description": "Your client secret, found in your Spotify App Dashboard."
+    },
+     "ENCRYPTION_SECRET": {
+      "description": "A secret key used to encrypt your token.",
+      "generator": "secret"
+    },
+    "CLIENT_CALLBACK_URL": {
+      "description": "The Redirect URI found in your Spotify App Dashboard."
+    }
+  }
+}
