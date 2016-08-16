@@ -1,8 +1,8 @@
 # SpotifyTokenRefresh
 
-For apps that use the Spotify API, users are required to login once every 60 minutes unless you use the Authorization Code flow. Using this flow requires that you setup your own server that performs a token swap and refresh. 
+For apps that use the Spotify API, users are required to login once every 60 minutes unless you implement the Authorization Code flow. Using this flow requires that you setup your own server that performs a token swap and refresh. 
 
-Use this quick deploy to Heroku for a one-click deployment of a free server. You'll need to enter your Client ID, Client Secret and Callback URI. 
+Use this quick deploy to Heroku for a one-click deployment of a free server that acts as your token swap/refresh service. You'll need to enter your Client ID, Client Secret and Callback URI. 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
